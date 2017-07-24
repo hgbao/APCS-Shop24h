@@ -1,0 +1,34 @@
+<resources>
+    <dimen name="padding">4dp</dimen>
+    <dimen name="elevation">4dp</dimen>
+    <dimen name="margin_short">5dp</dimen>
+    <dimen name="margin_long">10dp</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <!-- Items -->
+    <dimen name="list_item_height">80dp</dimen>
+    <dimen name="list_item_height_big">150dp</dimen>
+    <dimen name="fab_size">65dp</dimen>
+
+    <!-- Text -->
+    <dimen name="text_title">20dp</dimen>
+    <dimen name="text_subtitle">15dp</dimen>
+    <dimen name="text_detail">10dp</dimen>
+    <dimen name="text_detail_small">15dp</dimen>
+
+    <!-- Images -->
+    <dimen name="icon_size">50dp</dimen>
+    <dimen name="shadow_height">5dp</dimen>
+
+    <dimen name="logo_width">100dp</dimen>
+    <dimen name="logo_height">40dp</dimen>
+    <dimen name="logo_width_big">120dp</dimen>
+    <dimen name="logo_height_big">48dp</dimen>
+
+    <dimen name="marker_width">50dp</dimen>
+    <dimen name="marker_height">80dp</dimen>
+    <dimen name="marker_width_small">20dp</dimen>
+    <dimen name="marker_height_small">32dp</dimen>
+</resources>

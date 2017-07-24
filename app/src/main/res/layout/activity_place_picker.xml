@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/margin_short">
+
+    <TextView
+        style="@style/TextDetail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nhập địa điểm:"
+        android:textColor="@color/colorPrimaryDark" />
+
+    <SearchView
+        android:id="@+id/searchViewPicker"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        style="@style/TextDetail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Chọn địa điểm:"
+        android:textColor="@color/colorPrimaryDark" />
+
+    <fragment
+        android:id="@+id/mapPicker"
+        android:name="com.google.android.gms.maps.MapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/margin_short"
+        android:layout_weight="1" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnPickerYes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Xác nhận" />
+
+        <Button
+            android:id="@+id/btnPickerNo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Hủy bỏ" />
+    </LinearLayout>
+
+</LinearLayout>

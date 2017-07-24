@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Shop 24h</string>
+    <string name="app_version">1.0.0</string>
+    <string name="app_email">shop24h.mail@gmail.com</string>
+    <string name="KEY_GOOGLE_API">AIzaSyAKQiQuRjLZrkJj2ptoeSqxcuXNGXfsn_8</string>
+    <string name="GCM_SENDER_ID">781940185036</string>
+
+    <string name="error_infomation">(Không rõ)</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_company">CompanyActivity</string>
+    <string name="title_activity_shop">ShopActivity</string>
+    <string name="title_activity_setting">SettingActivity</string>
+    <string name="title_activity_search">SearchActivity</string>
+    <string name="title_activity_notification">NotificationActivity</string>
+    <string name="title_activity_favourite">FavouriteActivity</string>
+    <string name="title_activity_place_picker">PlacePickerActivity</string>
+    <string name="title_activity_nearby">NearbyActivity</string>
+</resources>

@@ -1,0 +1,112 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbarSetting"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/margin_short"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_marginTop="@dimen/margin_long"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Thông báo"
+                android:textSize="@dimen/text_detail"
+                android:textStyle="bold" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_margin="@dimen/margin_short"
+                android:background="@android:color/darker_gray" />
+
+            <Switch
+                android:id="@+id/switchSettingNotification"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_marginLeft="@dimen/margin_short"
+                android:text="Nhận thông báo"
+                android:textSize="@dimen/text_detail" />
+
+
+            <TextView
+                android:layout_marginTop="@dimen/margin_long"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Cập nhật"
+                android:textSize="@dimen/text_detail"
+                android:textStyle="bold" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_margin="@dimen/margin_short"
+                android:background="@android:color/darker_gray" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Kiểm tra cập nhật"
+                android:id="@+id/btnSettingUpdate"/>
+
+
+            <TextView
+                android:layout_marginTop="@dimen/margin_long"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Khôi phục"
+                android:textSize="@dimen/text_detail"
+                android:textStyle="bold" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_margin="@dimen/margin_short"
+                android:background="@android:color/darker_gray" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Khôi phục dữ liệu"
+                android:id="@+id/btnSettingRestore"/>
+
+
+            <TextView
+                android:layout_marginTop="@dimen/margin_long"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Liên hệ"
+                android:textSize="@dimen/text_detail"
+                android:textStyle="bold" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_margin="@dimen/margin_short"
+                android:background="@android:color/darker_gray" />
+
+            <TextView
+                style="@style/TextDetail"
+                android:text="Email: shop24h@gmail.com"/>
+
+        </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+
+</LinearLayout>
